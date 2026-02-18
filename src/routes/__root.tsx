@@ -20,7 +20,12 @@ export const Route = createRootRoute({
         content: 'width=device-width, initial-scale=1',
       },
       {
-        title: 'TanStack Chat Starter',
+        title: 'Adan Investments | Institutional Forex, Gold & Bitcoin Trading',
+      },
+      {
+        name: 'description',
+        content:
+          'Adan Investments delivers institutional-grade forex, gold (XAU/USD), and bitcoin (BTC/USD) trading analysis with real-time charts, disciplined risk management, and professional education.',
       },
     ],
     links: [
@@ -41,7 +46,7 @@ export const Route = createRootRoute({
 
 function RootDocument({ children }: { children: React.ReactNode }) {
   return (
-    <html>
+    <html lang="en">
       <head>
         <HeadContent />
       </head>
